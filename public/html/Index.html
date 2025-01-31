@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>HobbyJoggers</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="top"></div>
+    <header>
+        <table>
+            <tr>
+                <!-- <td> <h2></h2></td> -->
+                <td> <a href="https://hobbyjoggers.net/about"><h2>About</h2></a> </td>
+                <td> <a href="https://hobbyjoggers.net"><h1>Hobby Joggers</h1></a> </td>
+                <td> <a href="https://hobbyjoggers.net/shoes"><h2>Shoes</h2></a></td>
+                <!-- <td> <h2></h2></td> -->
+            </tr>
+        </table>
+    </header>
+
+    <div class="contents">
+        <div class="selectors">
+            <table class="QuickLinks">
+                <thead>
+                        <th>Quick Links</th>
+                </thead>
+                <tbody>
+                    <!-- Rows are added dynamicaly here -->
+                </tbody>
+            </table>
+
+            <div class="options">
+                <select name="GENDER" id="GENDER">
+                    <option value="Mens">Men's</option>
+                    <option value="Womens">Women's</option>
+                </select>
+
+                <select name="YEAR" id="YEAR">
+                </select>
+            </div>
+        </div>
+
+        <div class="results">
+            <h2 id="title"><!-- title added dynamicaly here --></h2>
+            <table class="mainTable" id="main-table">
+                <thead>
+                    <!-- Rows are added dynamicaly here -->
+                </thead>
+                <tbody>
+                    <!-- Rows are added dynamicaly here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <a href="#top"><div id="totop"><h3>▲</h3></div></a>
+
+    <script src="/js/GenerateHTML.js"></script>
+</body>
+</html>
